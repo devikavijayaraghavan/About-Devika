@@ -1,4 +1,48 @@
 body {
   padding: 10px;
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
+  background-color: #c5bddc;
+}
+
+h1 {
+  text-align: center;
+  color: #492b71; 
+  padding: 25px; 
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  text-align: justify;
+  color: black;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.boxLayout {
+  display: flex;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.header {
+  width: 50%;
+  position: relative;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.paragraph {
+  width: 50%;
+  position: relative;
+  border-radius: 25px;
+  background-color:  #492b71;
+  text-align: center;
+  margin-right: 25px;
+  margin-left: 25px;
 }
